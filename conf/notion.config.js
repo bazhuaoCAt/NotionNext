@@ -32,6 +32,8 @@ module.exports = {
     tags: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TAGS || 'tags',
     icon: process.env.NEXT_PUBLIC_NOTION_PROPERTY_ICON || 'icon',
     ext: process.env.NEXT_PUBLIC_NOTION_PROPERTY_EXT || 'ext' // 扩展字段，存放json-string，用于复杂业务
+    BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXXX
+    BEI_AN_GONGAN: '京公网安备 11010802001234 号' , // 添加公安备案 京公网安备 xxxxx号
   },
   NOTION_ACTIVE_USER: process.env.NOTION_ACTIVE_USER || '',
   NOTION_TOKEN_V2: process.env.NOTION_TOKEN_V2 || '' // Useful if you prefer not to make your database public
